@@ -1,5 +1,8 @@
 // styles
 import styles from "./Layout.module.css";
+
+import { AiFillHeart } from "react-icons/ai";
+
 function Layout({ children }) {
     return (
         <>
@@ -12,6 +15,7 @@ function Layout({ children }) {
             {children}
             <footer className={styles.footer}>
                 <p>Developed by Amf</p>
+                <AiFillHeart color="#e7106c" />
             </footer>
         </>
     );
