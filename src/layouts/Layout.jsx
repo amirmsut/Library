@@ -9,7 +9,7 @@ function Layout({ children }) {
             <header className={styles.header}>
                 <h1>Book App</h1>
                 <p>
-                    <a href="http://dotnet1.ir">amirmsut | Library Project</a>
+                    <a href="http://dotnet1.ir">amirmsut</a> | Library Project
                 </p>
             </header>
             {children}
